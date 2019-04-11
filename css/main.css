@@ -1770,6 +1770,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 
+#lastLogos {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
 
 /* ===================================================================
  *  11. about - (_layout.scss)
@@ -1780,8 +1786,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 4.2rem 0 12rem;
   background-color: #FFFFFF;
   min-height: 696px;
+  text-align: left;
+}
+
+#InternName {
   text-align: center;
 }
+
 #about .about-wrap {
   max-width: 850px;
 }
@@ -1806,6 +1817,49 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin: 0 auto 2.4rem;
 }
 #about .lead {
+  font-family: "librebaskerville-bold", serif;
+  font-size: 4rem;
+  line-height: 1.8;
+  color: #2e383f;
+  margin-top: 6rem;
+}
+
+
+/* ===================================================================
+ *  11. Project - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+ #Project {
+  position: relative;
+  padding: 4.2rem 0 12rem;
+  background-color: #FFFFFF;
+  min-height: 696px;
+  text-align: left;
+}
+#Project .about-wrap {
+  max-width: 850px;
+}
+#Project span {
+  color: #07617d;
+}
+#Project h3 {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.667;
+  color: #07617d;
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+  position: relative;
+}
+#Project h3::before {
+  display: block;
+  content: "";
+  width: 3px;
+  height: 9.6rem;
+  background-color: rgba(149, 149, 149, 0.7);
+  margin: 0 auto 2.4rem;
+}
+#Project .lead {
   font-family: "librebaskerville-bold", serif;
   font-size: 4rem;
   line-height: 1.8;
