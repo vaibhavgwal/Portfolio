@@ -2105,7 +2105,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   overflow: hidden;
 }
 .bricks-wrapper .item-wrap .overlay {
-  cursor: zoom-in;
+  cursor: pointer;
 }
 .bricks-wrapper .item-wrap .overlay img {
   vertical-align: bottom;

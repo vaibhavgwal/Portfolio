@@ -67,12 +67,7 @@
 	/*	Light Gallery
 	------------------------------------------------------- */
 	var ssLightGallery = function() {
-
-		$('#folio-wrap').lightGallery({  
-			showThumbByDefault: false,
-			hash: false,
-			selector: ".item-wrap"		
-		});
+ 
 	};
 
 
