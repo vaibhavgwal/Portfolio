@@ -2100,7 +2100,21 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 /* ------------------------------------------------------------------- 
  * masonry entries - (_layout.css) 
  * ------------------------------------------------------------------- */
-.bricks-wrapper .item-wrap {
+ .column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+ .bricks-wrapper .item-wrap {
   position: relative;
   overflow: hidden;
 }
@@ -2485,7 +2499,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *  15. clients - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#clients {
+ #clients {
   background-color: #e9eaea;
   padding: 4.8rem 0 4.8rem;
 }
@@ -2554,7 +2568,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #clients .owl-carousel .owl-dots .owl-dot:hover span {
   background-color: #000000;
 }
-
 
 /* ===================================================================
  *  16. contact - (_layout.scss)
