@@ -1274,6 +1274,36 @@ header .header-logo a {
   transition: all 0.5s ease-in-out;
 }
 
+header .Projectheader-logo {
+  position: absolute;
+  left: 32px;
+  top: 42px;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+header .Projectheader-logo a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  width: 57px;
+  height: 27px;
+  background: ("../images/Logo2.jpg") no-repeat center;
+  background-size: 57px 27px;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
 /* ------------------------------------------------------------------- 
  * menu trigger - (_layout.css) 
  * ------------------------------------------------------------------- */
