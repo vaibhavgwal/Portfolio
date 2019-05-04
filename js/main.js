@@ -134,14 +134,14 @@
 		var menuTrigger = $('#header-menu-trigger');
 
 		$WIN.on('scroll', function() {
-
+/*
 			if ($WIN.scrollTop() > 150) {				
 				menuTrigger.addClass('opaque');
 			}
 			else {				
 				menuTrigger.removeClass('opaque');
 			}
-
+*/
 		}); 
 	};
 
