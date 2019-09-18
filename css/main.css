@@ -2638,6 +2638,18 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-color: #000000;
 }
 
+@media screen and (min-width: 700px) { 
+  .owl-item img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px) { 
+  .sidenav{
+    display: none;
+  }
+}
 /* ===================================================================
  *  16. contact - (_layout.scss)
  *
